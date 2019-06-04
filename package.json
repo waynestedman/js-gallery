@@ -1,7 +1,7 @@
 {
   "name": "js-gal",
   "version": "1.0.1",
-  "description": "JavaScript Image Gallery page",
+  "description": "JavaScript Component Gallery page",
   "main": "index.html",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waynestedman/.git"
+    "url": "https://github.com/waynestedman/js-gallery.git"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
