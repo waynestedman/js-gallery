@@ -1,0 +1,338 @@
+@media only screen and (max-width: 649px) {
+  .content-wrapper {
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2.3rem;
+    }
+    h6 {
+      margin-top: 2rem;
+    }
+    .button-cta {
+      margin-top: 0;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      font-size: 1.6rem;
+    }
+    .slick-list {
+      margin: 0 auto;
+    }
+  } // content-wrapper
+  .o-introWrapper {
+    background: linear-gradient(160deg, $vscLtBlue 12%, #aaa 11.9%, #FFFFFF 12.1%);
+
+    #m-hero {
+      text-align: center;
+      margin-bottom: 4rem;
+
+      .a-heroImg {
+        position: relative;
+        top: unset;
+        right: unset;
+        width: 96%;
+        padding-top: 2rem;
+      } // a-heroImg
+      .a-ratingBadge {
+        top: 39%;
+        right: 12%;
+        width: 22%;
+      } // a-ratingBadge
+      .m-heroBox {
+        width: 90%;
+        margin: 0 auto;
+      } // m-heroBox
+    } // m-hero
+    #m-info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .a-infoImg {
+        width: 60%;
+        margin: 0 auto;
+        float: unset;
+        order: 2
+
+        img {
+          width: 50%;
+        }
+      } // a-infoImg
+      .m-infoText {
+        width: 96%;
+        order: 1;
+        margin: 0 auto;
+      }
+      .m-details {
+        order: 3;
+        width: 96%;
+        justify-content: center;
+        padding-left: 0;
+        margin: 0 auto;
+
+        .m-detail {
+          width: 48%;
+          margin-right: 0;
+
+          &:nth-child(odd) {
+            margin-right: 4%;
+          }
+        } // detail
+      } // m-details
+    } // m-info
+  } // introWrapper
+  #testimonialsSlider {
+    width: 98%;
+
+    .m-testimonial {
+      padding-left: 4.2rem;
+      padding-right: 4.2rem;
+
+      h3, h4, blockquote {
+        line-height: 1.15;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+      h4 {
+        height: 70px;
+      }
+      blockquote {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+      }
+    } //testimonial
+  } //testimonials
+  #o-beforeAfter {
+    height: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 4%;
+
+    .m-beforeAfter-slider {
+      position: relative;
+      width: 100%;
+      // min-height: 233px;
+      // height: 50%;
+      max-height: 250px;
+      display: block;
+
+    } // m-beforeAfter-slider
+    .m-beforeAfter-text {
+      position: relative;
+      display: block;
+      float: unset;
+      padding: 0 0 2rem 0;
+      margin: 0 auto;
+      width: 96%;
+
+      p {
+        margin: 0 auto;
+      }
+    } // m-beforeAfter-text
+  } // o-beforeAfter
+  #o-blog {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    .a-blogImg-left {
+      width: 100%;
+    } // a-blogImg-left
+    .a-blogImg-right {
+      display: none;
+    } // a-blogImg-right
+    .m-blog-text {
+      width: 96%;
+      margin: 0 auto;
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+    } // m-blog-text
+  } //o-blog
+  #o-products {
+    padding-top: unset;
+
+    .m-primers {
+      flex-direction: column;
+
+      .m-primer {
+        margin: 0 auto 4.5rem auto;
+
+        h4 {
+          font-size: 2.2rem;
+          margin-bottom: 0.2rem;
+        }
+        h5 {
+          font-size: 1.4rem;
+          margin-bottom: 2rem;
+        }
+      } // m-primer
+    } // m-primers
+  } //o-products
+} // Mobile - everything smaller than 650
+
+// @media only screen and (max-width: 459px) {
+//
+// } // to max 450 - Bigger mobile exceptions
+
+@media only screen and (min-width: 400px) and (max-width: 450px) {
+  #o-beforeAfter {
+    padding: 0 8%;
+  }
+} // min 400 to max 450
+@media only screen and (min-width: 451px) and (max-width: 549px) {
+  #o-beforeAfter {
+    .m-beforeAfter-slider {
+      max-height: 290px;
+    }
+  }
+} // min 451 to max 549
+@media only screen and (min-width: 550px) and (max-width: 649px) {
+  #testimonialsSlider {
+    .m-testimonial {
+      padding-left: 5rem;
+      padding-right: 5rem;
+
+      h4 {
+        height: 30px;
+      }
+    }
+  }
+  #o-beforeAfter {
+    .m-beforeAfter-slider {
+      max-height: 360px !important;
+    }
+  }
+} // min 550 to max 649
+@media only screen and (min-width: 650px) and (max-width: 799px) {
+  .content-wrapper {
+    h1 {
+      font-size: 3.4rem;
+    }
+    h4 {
+      font-size: 1.5rem;
+    }
+  } // content-wrapper
+  .o-introWrapper {
+    background: linear-gradient(145deg, $vscLtBlue 41%, #aaa 40.9%, #FFFFFF 41.1%);
+    margin-bottom: 0;
+
+    #m-hero {
+      margin-bottom: 8rem;
+
+      .a-heroImg {
+        top: 10%;
+        right: 4rem;
+        width: 50%;
+      }
+      .a-ratingBadge {
+        top: 12%;
+      }
+      .m-heroBox {
+        h2 {
+          font-size: 4rem;
+        }
+      } // m-heroBox
+    } // m-hero
+    #m-info {
+      .m-details {
+        margin-bottom: 4rem;
+      }
+    } // m-info
+  } // o-introWrapper
+  #o-beforeAfter {
+    height: 720px;
+    margin-bottom: 0;
+
+    .m-beforeAfter-slider {
+      width: 100%;
+    }
+    .m-beforeAfter-text {
+      text-align: center;
+      float: none;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+
+      h2 {
+        margin-top: 1rem;
+        line-height: 1;
+      }
+      p {
+        margin: 0 auto;
+        width: 74%;
+      }
+    }
+  } // o-beforeAfter
+  #o-blog {
+    margin-bottom: 2rem;
+
+    .m-blog-text {
+      width: 55%;
+      margin-left: 45%;
+      margin-top: -12rem;
+    }
+  } // o-blog
+  #o-products {
+    .m-primers {
+      .m-primer {
+        padding: 0 0.6rem;
+      }
+    }
+  } // o-products
+} // tablet - 650 to 800
+@media only screen and (min-width: 800px) and (max-width: 1030px) {
+  // .content-wrapper {
+  //   h1 {
+  //     font-size: 3.4rem;
+  //   }
+  //   h4 {
+  //     font-size: 1.5rem;
+  //   }
+  // } // content-wrapper
+  .o-introWrapper {
+    background: linear-gradient(145deg, $vscLtBlue 45%, #aaa 44.9%, #FFFFFF 45.1%);
+    margin-bottom: 0;
+
+    #m-hero {
+      margin-bottom: 6rem;
+
+      .a-heroImg {
+        top: 2%;
+        right: 4rem;
+        width: 46%;
+      }
+      .a-ratingBadge {
+        top: 12%;
+        width: 8%;
+      }
+      .m-heroBox {
+        width: 40%;
+        h2 {
+          font-size: 6rem;
+        }
+      } // m-heroBox
+    } // m-hero
+  } // o-introWrapper
+  #o-beforeAfter {
+    .m-beforeAfter-slider {
+      width: 61%;
+    } // m-beforeAfter-slider
+    .m-beforeAfter-text {
+      padding: 4rem 0 4rem 2rem;
+      width: 34%;
+    }
+  } // o-beforeAfter
+  #o-blog {
+    margin-bottom: 6rem;
+
+    .m-blog-text {
+      margin-left: 46%;
+      margin-top: -16rem;
+    }
+  } // o-blog
+  #o-products {
+    padding-top: 0;
+  } //o-products
+} // tablet - 800 to 1030
